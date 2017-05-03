@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+    <listeners>
+        <listener class-name="com.fabogo.library.TestngListners"></listener>
+       <!--  <listener class-name="com.uttesh.pdfngreport.PDFReportListener"></listener> -->
+    </listeners>
+  <test name="Test">
+    <classes>
+      <class name="com.fabogo.testscripts.NailServicesTest"/>
+<!--       <class name="com.fabogo.testscripts.RegistrationTest"/>
+      <class name="com.fabogo.testscripts.TattooTest"/> -->
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
